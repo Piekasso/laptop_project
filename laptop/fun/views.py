@@ -5,4 +5,4 @@ def index(request):
 
     context = {}
 
-    return render(request, 'fun/index.html', context)
+    return render(request, 'fun\index.html', context)
